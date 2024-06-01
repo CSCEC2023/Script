@@ -10,7 +10,7 @@
 ^https?:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering2-apiserver\/customer-suggest\/query-feedback-config|catering\/crm\/points-info) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
 
 [MITM]
-hostname = qmwebapi.qmai.cn, webapi.qmai.cn
+hostname = webapi2.qmai.cn,webapi.qmai.cn,qmwebapi.qmai.cn
 
 */
 const $ = new Env("🥤霸王茶姬token");
